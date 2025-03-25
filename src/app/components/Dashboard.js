@@ -183,7 +183,7 @@ const Dashboard = () => {
                         2021
                       </p>
                       <button
-                        className="bg-blue-500 hover:bg-blue-700 text-white py-1 mx-5 px-3 rounded text-sm"
+                        className="bg-blue-900 border border-black hover:bg-blue-700 hover:border-black text-white py-1 px-3 rounded-md text-sm mx-5"
                         onClick={handleOpenModal}
                       >
                         Update
