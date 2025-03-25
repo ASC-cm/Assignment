@@ -1,11 +1,10 @@
 "use client";
-
 import React, { useState } from "react";
 import { Line } from "react-chartjs-2";
 import { Chart, registerables } from "chart.js";
 import { Doughnut } from "react-chartjs-2";
 import SkillTest from "./SkillTest";
-import { Bar } from "react-chartjs-2";
+import Image from "next/image";
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -22,8 +21,6 @@ import {
   FaHtml5,
   FaChartLine,
   FaUser,
-  FaBullseye,
-  FaLocationArrow,
   FaCode,
   FaTable,
 } from "react-icons/fa";
@@ -116,7 +113,18 @@ const Dashboard = () => {
       <div className="flex flex-col h-screen">
         {/* Header (Full Width) */}
         <header className="p-4 flex justify-between items-center">
-          <h1 className="text-xl font-bold">WhatBytes</h1>
+          <div>
+            <img
+              src="/assets/icons.png"
+              alt="Illustration"
+              width={30}
+              height={30}
+              className="inline-block align-middle"
+            />
+            <h1 className="text-xl font-bold inline-block align-middle ml-2">
+              WhatBytes
+            </h1>
+          </div>
           <div>
             <FaUser className="inline-block align-middle mr-2" />
             <span className="font-medium inline-block align-middle">
