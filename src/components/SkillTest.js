@@ -15,7 +15,7 @@ const SkillTest = ({ showModal, setShowModal }) => {
     setLoading(true);
     try {
       const response = await axios.post(
-        "https://your-backend-url.com/api/update-scores",
+        "https://api-endpoint/api/update-scores",
         {
           rank,
           percentile,
