@@ -1,5 +1,4 @@
 "use client";
-
 import { FaHtml5 } from "react-icons/fa";
 import SkillTest from "./SkillTest";
 

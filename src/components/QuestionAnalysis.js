@@ -1,7 +1,5 @@
 "use client";
-
 import { Doughnut } from "react-chartjs-2";
-import Image from "next/image";
 
 export default function QuestionAnalysis({ doughnutData, doughnutOptions }) {
   return (

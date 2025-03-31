@@ -1,5 +1,4 @@
 "use client";
-
 import { FaChartLine, FaCode, FaTable } from "react-icons/fa";
 
 export default function Sidebar({ isSidebarOpen }) {

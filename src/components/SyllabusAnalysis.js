@@ -1,5 +1,4 @@
 "use client";
-
 export default function SyllabusAnalysis() {
   return (
     <div className="bg-white p-4 rounded-lg shadow mb-6">
